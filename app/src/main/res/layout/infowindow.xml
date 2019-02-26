@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:text="We wish to inform you that this application is discontinued due to technical reasons.  You are requested to download our new application by clicking on the button below. We regret the inconvenience caused."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btndownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:text="Download New Application" />
+</RelativeLayout>
